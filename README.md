@@ -24,7 +24,7 @@ Our application simply provides a clean and easy method of accessibility. It pro
 ## Tech
 
 COV-ER uses a number of open source projects to work properly:
-, , google colab, mapgit, excode,  fcpx, bravo studio, mapsicle, google sheets, sheets sync
+
 - Figma
 - Swift
 - Google Colab
