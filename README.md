@@ -16,7 +16,7 @@ Our application simply provides a clean and easy method of accessibility. It pro
 - Get directions to the hospital
 - Have the required contact numbers to the respective departments of hospitals in order to inform their needs prior arrival. 
 
-![alt text](https://github.com/avyay10/CivHacks/Pg 3_2.png?raw=true)
+![alt text](https://github.com/avyay10/CivHacks/Pg3_2.png?raw=true)
 
 ## Tech
 
