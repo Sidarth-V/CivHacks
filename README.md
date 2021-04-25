@@ -18,6 +18,9 @@ Our application simply provides a clean and easy method of accessibility. It pro
 
 ![picture 1](Pg3_2.png)
 
+![picture 2](Pg3_3.png)
+
+![picture 3](Pg4_1.png)
 ## Tech
 
 COV-ER uses a number of open source projects to work properly:
