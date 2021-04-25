@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Zu-zu-kSk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="CivHacks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter the location/area in which you need emergency covid services" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zy0-AB-kB2">
+                                <rect key="frame" x="17" y="357" width="380" height="59"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="380" id="K1w-kp-ABx"/>
+                                    <constraint firstAttribute="height" constant="59" id="sh7-cN-u36"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="WELCOME TO COV-ER" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DgG-WA-E3t">
+                                <rect key="frame" x="36" y="168" width="342" height="107"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="HGX-TB-Dvd"/>
+                                    <constraint firstAttribute="width" constant="342" id="lBC-jN-Pqd"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="SocialDistancing" translatesAutoresizingMaskIntoConstraints="NO" id="xfK-u9-cMh">
+                                <rect key="frame" x="0.0" y="510" width="414" height="352"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the Location" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nyD-rf-qIg">
+                                <rect key="frame" x="40" y="426" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Location" translatesAutoresizingMaskIntoConstraints="NO" id="4xb-kv-DMo">
+                                <rect key="frame" x="36" y="431" width="36" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WD6-7p-3ES">
+                                <rect key="frame" x="327" y="433" width="20" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="magnifyingglass" catalog="system" renderingMode="original"/>
+                                </state>
+                                <connections>
+                                    <segue destination="c87-FW-RTX" kind="show" id="BtQ-dd-MBr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xfK-u9-cMh" secondAttribute="bottom" id="335-QH-v6N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DgG-WA-E3t" secondAttribute="trailing" constant="36" id="5a6-ea-Uh1"/>
+                            <constraint firstItem="xfK-u9-cMh" firstAttribute="top" secondItem="nyD-rf-qIg" secondAttribute="bottom" constant="50" id="K7L-zZ-C8p"/>
+                            <constraint firstItem="DgG-WA-E3t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="Kpb-1t-SnM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nyD-rf-qIg" secondAttribute="trailing" constant="20" id="SHj-O7-LsD"/>
+                            <constraint firstItem="zy0-AB-kB2" firstAttribute="top" secondItem="DgG-WA-E3t" secondAttribute="bottom" constant="82" id="VRL-1M-V55"/>
+                            <constraint firstItem="DgG-WA-E3t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="YN0-OI-m9W"/>
+                            <constraint firstItem="xfK-u9-cMh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cqS-ov-1Up"/>
+                            <constraint firstItem="nyD-rf-qIg" firstAttribute="top" secondItem="zy0-AB-kB2" secondAttribute="bottom" constant="10" id="jjO-Zf-LJl"/>
+                            <constraint firstItem="nyD-rf-qIg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mbk-Ya-txS"/>
+                            <constraint firstItem="zy0-AB-kB2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="vuO-bn-u9W"/>
+                            <constraint firstItem="nyD-rf-qIg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="w5S-Gi-hj3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfK-u9-cMh" secondAttribute="trailing" id="yDn-bO-uX3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Un-hl-LaM">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="LocationField" destination="nyD-rf-qIg" id="IiA-kJ-kyj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886.95652173913049" y="57.589285714285708"/>
+        </scene>
+        <!--Map Pins View Controller-->
+        <scene sceneID="bbf-1I-VJl">
+            <objects>
+                <viewController id="c87-FW-RTX" customClass="MapPinsViewController" customModule="CivHacks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xrg-gQ-MRV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lBR-9c-bwb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="day-d8-Igf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lBR-9c-bwb" firstAttribute="leading" secondItem="day-d8-Igf" secondAttribute="leading" id="2Gu-g7-wce"/>
+                            <constraint firstItem="lBR-9c-bwb" firstAttribute="top" secondItem="day-d8-Igf" secondAttribute="top" id="Nv5-Sx-Heo"/>
+                            <constraint firstItem="day-d8-Igf" firstAttribute="bottom" secondItem="lBR-9c-bwb" secondAttribute="bottom" id="to0-jl-qER"/>
+                            <constraint firstItem="day-d8-Igf" firstAttribute="trailing" secondItem="lBR-9c-bwb" secondAttribute="trailing" id="zZ4-nC-QfZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Usl-uP-7ko"/>
+                    <connections>
+                        <outlet property="MapView" destination="lBR-9c-bwb" id="zM7-Ic-fHM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtE-wQ-WIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1650" y="61"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="81O-5N-RdW">
+            <objects>
+                <viewController id="VHV-DU-kAc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XX5-wZ-baH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Bas-uW-qQk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRz-E0-jvt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2384" y="58"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PFn-kT-fG2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Zu-zu-kSk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CdF-7q-jZJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DRw-Ps-cU0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFh-63-ucg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="57.589285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Location" width="94" height="88"/>
+        <image name="SocialDistancing" width="942" height="884"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
