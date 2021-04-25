@@ -15,6 +15,7 @@
 		4117C9192634680300B33F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4117C9172634680300B33F3F /* LaunchScreen.storyboard */; };
 		414B0FFB26353C9700080C65 /* MapPinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414B0FFA26353C9700080C65 /* MapPinsViewController.swift */; };
 		414B10022635431000080C65 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414B10012635431000080C65 /* Artwork.swift */; };
+		414B10052635529900080C65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414B10042635529900080C65 /* HomeViewController.swift */; };
 		4172E302263492EB00CE4EF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172E301263492EB00CE4EF3 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		4117C91A2634680300B33F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414B0FFA26353C9700080C65 /* MapPinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinsViewController.swift; sourceTree = "<group>"; };
 		414B10012635431000080C65 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		414B10042635529900080C65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4172E301263492EB00CE4EF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 				4117C9172634680300B33F3F /* LaunchScreen.storyboard */,
 				4117C91A2634680300B33F3F /* Info.plist */,
 				414B0FFA26353C9700080C65 /* MapPinsViewController.swift */,
+				414B10042635529900080C65 /* HomeViewController.swift */,
 				414B10012635431000080C65 /* Artwork.swift */,
 			);
 			path = CivHacks;
@@ -151,6 +154,7 @@
 				4117C90D2634680100B33F3F /* AppDelegate.swift in Sources */,
 				414B0FFB26353C9700080C65 /* MapPinsViewController.swift in Sources */,
 				414B10022635431000080C65 /* Artwork.swift in Sources */,
+				414B10052635529900080C65 /* HomeViewController.swift in Sources */,
 				4117C90F2634680100B33F3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
